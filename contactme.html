@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>CropInfo</title>
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main class="scroll">
+
+    <section class="banner">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="navigation" id="navigationlinks">
+                <i class="large material-icons" onclick="hideMenu()">close</i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fooders.html">Fodders</a></li>
+                    <li><a href="cereals.html">Cereals</a></li>
+                    <li><a href="fruits.html">Fruits</a></li>
+                    <li><a href="vege.html">Vegetables</a></li>
+                    <li><a href="aboutme.html">About Us</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <i class="large material-icons" onclick="showMenu()">menu</i>
+        </nav >
+        <section class="vege">
+        <div class="text1">
+            <h1> Contact Me</h1>
+            <p1>
+               
+               <br> If you have any query about CropInfo, don't hesitate to contact on <br> contact@crop.info<br><br> or <br><br> (+92)090078601
+
+               </p1>
+
+
+            </div>
+        </section>
+        <section class="footer">
+            <p2>CropInfo</p2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ut eu est eu est venenatis consectetur sed id velit.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+        <p>Copyright &copy;2021 CropInfo. Designed by <span>Shaheer</span></p>
+    
+    </section>
+</main>
+<script>
+    var navigationlinks=document.getElementById("navigationlinks");
+    function showMenu()
+    {
+        navigationlinks.style.right="0";
+
+    }
+    function hideMenu()
+    {
+        navigationlinks.style.right="-200px";
+
+    }
+</script>
+</body>
+
+</html>
